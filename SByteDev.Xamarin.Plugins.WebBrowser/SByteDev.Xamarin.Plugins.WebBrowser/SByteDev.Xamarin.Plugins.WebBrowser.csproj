@@ -22,7 +22,12 @@
         <RepositoryUrl>https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser</RepositoryUrl>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
+        <DesignTimeBuild>false</DesignTimeBuild>
+    </PropertyGroup>
+
     <ItemGroup>
+        <PackageReference Include="SByteDev.Xamarin.Plugins.Base" Version="1.0.0" />
         <Compile Include="Shared\**\*.cs" />
     </ItemGroup>
 

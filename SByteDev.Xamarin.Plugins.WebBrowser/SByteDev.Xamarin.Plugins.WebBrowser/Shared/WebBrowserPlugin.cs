@@ -1,3 +1,5 @@
+using SByteDev.Xamarin.Plugins.Base;
+
 // ReSharper disable once CheckNamespace
 
 namespace SByteDev.Xamarin.Plugins.WebBrowser
@@ -12,7 +14,14 @@ namespace SByteDev.Xamarin.Plugins.WebBrowser
 
         static WebBrowserPlugin()
         {
-            Plugin = new Plugin<IWebBrowser>(() => new WebBrowser());
+            Plugin = new Plugin<IWebBrowser>(() =>
+            {
+#if NETSTANDARD2_0
+                return null;
+#else
+                return new WebBrowser();
+#endif
+            });
         }
     }
 }
