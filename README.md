@@ -2,6 +2,10 @@
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.WebBrowser.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.WebBrowser.svg)
 
+[![Build Status](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.WebBrowser.svg?branch=master)](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.WebBrowser)
+[![codecov](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.WebBrowser/branch/master/graph/badge.svg)](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.WebBrowser)
+[![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.webbrowser/badge)](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.webbrowser)
+
 Provides a cross-platform UI for displaying the web page.
 
 ## Installation
@@ -16,10 +20,7 @@ Install-Package SByteDev.Xamarin.Plugins.WebBrowser
 ```cs
 using SByteDev.Xamarin.Plugins.WebBrowser;
 
-if (WebBrowserPlugin.IsSupported)
-{
-    await WebBrowserPlugin.ShowWebPageAsync(uri, cancellationToken);
-}
+await WebBrowserPlugin.ShowWebPageAsync("https://github.com", CancellationToken.None);
 
 ```
 
