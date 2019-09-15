@@ -20,7 +20,7 @@ Install-Package SByteDev.Xamarin.Plugins.WebBrowser
 ```cs
 using SByteDev.Xamarin.Plugins.WebBrowser;
 
-await WebBrowserPlugin.ShowWebPageAsync("https://github.com", CancellationToken.None);
+await WebBrowserPlugin.ShowWebPageAsync(new Uri("https://github.com"), CancellationToken.None);
 
 ```
 
