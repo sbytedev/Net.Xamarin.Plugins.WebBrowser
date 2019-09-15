@@ -9,7 +9,6 @@
 Provides a cross-platform UI for displaying the web page.
 
 ## Installation
-
 Use [NuGet](https://www.nuget.org) package manager to install this library.
 
 ```bash
@@ -24,7 +23,7 @@ await WebBrowserPlugin.ShowWebPageAsync(new Uri("https://github.com"), Cancellat
 
 ```
 
-## Platform Implementation
+## Implementation
 ### iOS
 Uses default [SFSafariViewController](https://docs.microsoft.com/en-us/dotnet/api/safariservices.sfsafariviewcontroller).
 
