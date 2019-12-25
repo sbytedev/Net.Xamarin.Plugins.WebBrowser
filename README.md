@@ -19,7 +19,7 @@ Install-Package SByteDev.Xamarin.Plugins.WebBrowser
 ```cs
 using SByteDev.Xamarin.Plugins.WebBrowser;
 
-await WebBrowserPlugin.ShowWebPageAsync(new Uri("https://github.com"), CancellationToken.None);
+await WebBrowserPlugin.Instance.ShowWebPageAsync(new Uri("https://github.com"), CancellationToken.None);
 
 ```
 
@@ -28,7 +28,7 @@ await WebBrowserPlugin.ShowWebPageAsync(new Uri("https://github.com"), Cancellat
 Uses default [SFSafariViewController](https://docs.microsoft.com/en-us/dotnet/api/safariservices.sfsafariviewcontroller).
 
 ### Android
-Uses [CustomTabsIntent](https://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.html) from [Xamarin.AndroidX.Browser](https://www.nuget.org/packages/Xamarin.AndroidX.Browser/).
+Uses [CustomTabsIntent](https://developer.android.com/reference/android/support/customtabs/CustomTabsIntent.html) from [Xamarin.Android.Support.CustomTabs](https://www.nuget.org/packages/Xamarin.Android.Support.CustomTabs/).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

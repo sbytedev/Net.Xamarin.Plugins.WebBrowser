@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
-        <PackageReference Include="SByteDev.Xamarin.Plugins.WebBrowser" Version="1.0.0" />
+        <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+        <PackageReference Include="SByteDev.Xamarin.Plugins.WebBrowser" Version="1.0.2" />
     </ItemGroup>
 </Project>

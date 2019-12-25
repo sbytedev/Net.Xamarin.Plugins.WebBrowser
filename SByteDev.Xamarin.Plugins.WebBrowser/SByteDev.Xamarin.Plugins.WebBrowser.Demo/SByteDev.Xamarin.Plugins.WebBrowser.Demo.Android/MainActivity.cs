@@ -7,7 +7,6 @@ using Xamarin.Forms.Platform.Android;
 namespace SByteDev.Xamarin.Plugins.WebBrowser.Demo.Android
 {
     [Activity(
-        Label = "SByteDev.Xamarin.Plugins.WebBrowser.Demo",
         Theme = "@style/Theme.AppCompat.Light.NoActionBar",
         MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation

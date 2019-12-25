@@ -105,9 +105,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
     <PackageReference Include="SByteDev.Xamarin.Plugins.WebBrowser">
-      <Version>1.0.0</Version>
+      <Version>1.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
