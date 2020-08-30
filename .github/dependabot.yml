@@ -1,7 +1,7 @@
 version: 2
 updates:
 - package-ecosystem: nuget
-  directory: "/Net.Xamarin.Plugins.WebBrowser"
+  directory: "/SByteDev.Xamarin.Plugins.WebBrowser"
   schedule:
     interval: daily
     time: "03:00"
