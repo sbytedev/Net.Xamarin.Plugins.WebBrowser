@@ -6,6 +6,8 @@ using SafariServices;
 using SByteDev.Xamarin.iOS.Extensions;
 using UIKit;
 
+// ReSharper disable once CheckNamespace
+
 namespace SByteDev.Xamarin.Plugins.WebBrowser
 {
     [Preserve(AllMembers = true)]

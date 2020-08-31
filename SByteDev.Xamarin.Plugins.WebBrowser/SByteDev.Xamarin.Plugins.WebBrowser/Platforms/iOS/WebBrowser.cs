@@ -3,6 +3,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Foundation;
 
+// ReSharper disable once CheckNamespace
+
 namespace SByteDev.Xamarin.Plugins.WebBrowser
 {
     [Preserve(AllMembers = true)]
