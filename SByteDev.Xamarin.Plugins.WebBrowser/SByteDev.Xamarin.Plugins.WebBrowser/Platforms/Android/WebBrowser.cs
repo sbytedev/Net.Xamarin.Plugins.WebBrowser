@@ -4,8 +4,10 @@ using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
-using Android.Support.CustomTabs;
+using AndroidX.Browser.CustomTabs;
 using AndroidUri = Android.Net.Uri;
+
+// ReSharper disable once CheckNamespace
 
 namespace SByteDev.Xamarin.Plugins.WebBrowser
 {

@@ -11,7 +11,7 @@ namespace SByteDev.Xamarin.Plugins.WebBrowser.Demo.Android
         MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation
     )]
-    public class MainActivity : FormsAppCompatActivity
+    public class MainActivity : FormsApplicationActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
