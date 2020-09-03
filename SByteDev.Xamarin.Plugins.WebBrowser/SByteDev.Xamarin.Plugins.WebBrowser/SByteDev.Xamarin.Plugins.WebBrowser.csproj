@@ -1,11 +1,11 @@
 <Project Sdk="MSBuild.Sdk.Extras/2.0.54">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid90</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid10.0</TargetFrameworks>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>SByteDev.Xamarin.Plugins.WebBrowser</PackageId>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <Title>Xamarin WebBrowser Plugin</Title>
         <Description>WebBrowser Plugin for Xamarin.</Description>
         <Copyright>SByteDev</Copyright>
@@ -17,7 +17,7 @@
         <PackageProjectUrl>https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser</PackageProjectUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReleaseNotes>Migrate to AndroidX</PackageReleaseNotes>
+        <PackageReleaseNotes>Update MonoAndroid to 10.0</PackageReleaseNotes>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser</RepositoryUrl>
