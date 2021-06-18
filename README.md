@@ -1,8 +1,8 @@
 # WebBrowser Plugin for Xamarin
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.WebBrowser.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.WebBrowser.svg)
-[![Build Status](https://img.shields.io/bitrise/07e0cc8ace4a2891/develop?label=development&token=qVt2b6ng_m0VdX6ce0ovKw&branch)](https://app.bitrise.io/app/07e0cc8ace4a2891)
-[![Build Status](https://img.shields.io/bitrise/07e0cc8ace4a2891/master?label=production&token=qVt2b6ng_m0VdX6ce0ovKw&branch)](https://app.bitrise.io/app/07e0cc8ace4a2891)
+[![CI](https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser/actions/workflows/ci.yml/badge.svg)](https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser/actions/workflows/ci.yml)
+[![CD](https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser/actions/workflows/cd.yml/badge.svg)](https://github.com/SByteDev/Net.Xamarin.Plugins.WebBrowser/actions/workflows/cd.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.webbrowser/badge)](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.webbrowser)
 
 Provides a cross-platform UI for displaying the web page.
